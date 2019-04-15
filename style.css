@@ -1,15 +1,19 @@
 .buton {
-background-color:#44c767;
+background-color:grey;
 border:1px solid #18ab29;
 cursor:pointer;
-color:#ffffff;
+color:red;
 font-family:Arial;
 font-size:19px;
 padding:20px 63px;
 text-decoration:none;
+margin-left:300px;
+position: absolute;
+float: left;
+
 }
 .buton:hover {
-background-color:#5cbf2a;
+background-color:tomato;
 }
 .buton:active {
 position:relative;
@@ -18,3 +22,18 @@ top:2px;
  #div1{
   margin: 10px;
  }
+ a.a1{
+ 	font-size: 30px;
+ 	font-family: fantasy;
+ 	background-color: skyblue;
+ 	border:50px solid skyblue;
+ 	position: absolute;
+ 	float: left;
+ }
+a.a1:hover{
+ 	background-color: tomato; }
+ a.a1:active{
+ 	position: relative;
+ 	top:5px;
+ }
+ 
