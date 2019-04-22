@@ -1,15 +1,21 @@
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
 .buton {
 background-color:grey;
-border:1px solid #18ab29;
+border:5px solid #18ab29;
 cursor:pointer;
 color:red;
 font-family:Arial;
-font-size:19px;
-padding:20px 63px;
-text-decoration:none;
-margin-left:300px;
-position: absolute;
-float: left;
+font-size:15px;
+padding:30px 450px;
+text-decoration:blink;
+position: relative;
 
 }
 .buton:hover {
@@ -19,21 +25,45 @@ background-color:tomato;
 position:relative;
 top:2px;
 }
- #div1{
-  margin: 10px;
- }
- a.a1{
- 	font-size: 30px;
- 	font-family: fantasy;
- 	background-color: skyblue;
- 	border:50px solid skyblue;
- 	position: absolute;
- 	float: left;
- }
-a.a1:hover{
- 	background-color: tomato; }
- a.a1:active{
- 	position: relative;
- 	top:5px;
- }
- 
+.div1{
+	width:467px;
+	height: 387px;
+    float:left;
+    overflow: hidden;
+    background-image:url('Bilgisayar.jpg');
+    background-size: 467px 387px; 
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.3);
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+
+.div1>img{    
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    transition:all 1s ease;
+}
+
+.div1>img:hover{
+    opacity:0;
+}
+.p1{
+	font-size: 20px;
+	position: absolute;
+	margin-left: 20px;
+}
+.div2{
+	position: absolute;
+	margin-left: 500px;
+}
+.p2{
+	background-color: red;
+	margin-left:920px;
+	position: absolute; 
+	color: black;
+}
+.div3{
+	background-color: red;
+	width: 200px;
+}
