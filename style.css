@@ -5,6 +5,27 @@ header {
   font-size: 25px;
   color: white;
 }
+header:hover{
+  background-color: orange;
+  font-size: 35px;
+  color:black;
+  padding-top: 25px;
+     -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    transition:all 1s ease;
+}
+input:active{
+  padding-top: 5px;
+  background-color: orange;
+  text-decoration-color: blue;
+}
+.form1{
+  align-items: center;
+  padding-left: 500px;
+  
+}
 
 .buton {
 background-color:grey;
@@ -20,6 +41,11 @@ position: relative;
 }
 .buton:hover {
 background-color:tomato;
+     -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    transition:all 1s ease;
 }
 .buton:active {
 position:relative;
@@ -66,36 +92,43 @@ top:2px;
 	color: black;
 }
 .div3{
+  -webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+opacity: .6;
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+filter: alpha(opacity=60);
   display: inline;
   position: absolute;
 	background-color: lightgreen;
-	width: 300px;
+	width: 500px;
   height: 300px;
 
 }
-.div3:active{
-background-color: white;
-margin-top: 20px;
+.div3:hover{
+opacity: 1.0;
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+filter: alpha(opacity=100);
 }
 
 .Örnekler1{
+
   display:inline-block;
  
-  background-color: red;
   height: 300px;
   width: 300px;
 }
 .Örnekler2{
   display: inline-block;
  
-  background-color:blue;
+
   height: 300px;
   width: 300px;
 }
 .Örnekler3{
   display: inline-block;
  
-  background-color: tomato;
   height: 300px;
   width: 300px;
 }
